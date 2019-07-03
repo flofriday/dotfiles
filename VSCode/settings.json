@@ -1,0 +1,9 @@
+{
+    "terminal.integrated.fontFamily": "Source Code Pro",
+    "editor.fontFamily": "Source Code Pro Semibold",
+    "go.formatTool": "goimports",
+    "go.useLanguageServer": true,
+    "window.zoomLevel": 0,
+    "editor.lineNumbers": "relative",
+    "workbench.colorTheme": "One Dark Pro"
+}
