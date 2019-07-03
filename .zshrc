@@ -18,4 +18,6 @@ source $HOME/.profile
 autoload -U colors && colors
 PS1="%{$fg[green]%}[%{$fg[red]%}%n%{$reset_color%}@%{$fg[blue]%}%m %{$fg[yellow]%}%~ %{$reset_color%}%{$fg[green]%}]%{$reset_color%}$ "
 
-alias ls='ls --color'
+if [[ "$OSTYPE" == "linux-gnu" ]]; then
+    alias ls='ls --color'
+fi
